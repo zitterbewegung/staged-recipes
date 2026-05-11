@@ -25,9 +25,11 @@ requirements:
     - python
     - setuptools
     - pip
+    - pyopencl
   run:
     - python
     - numpy >=1.17.0
+    - pyopencl
 
 tests:
   - python:

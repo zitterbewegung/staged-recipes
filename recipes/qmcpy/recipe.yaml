@@ -23,6 +23,7 @@ requirements:
     - setuptools
     - wheel
     - pip
+    - qmctoolscl >=1.1.6
   run:
     - python >=${{ python_min }}
     - numpy >=1.17.0
