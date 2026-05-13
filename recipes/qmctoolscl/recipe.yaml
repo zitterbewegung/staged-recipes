@@ -14,7 +14,8 @@ source:
 build:
   number: 1
   skip:
-    - win
+    - win_aarch64
+    - osx_arm64
   script: ${{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -26,7 +27,7 @@ requirements:
     - pip
     - pyopencl
   run:
-    - python >=3.9
+    - python 3.9.*
     - numpy >=1.17.0
     - pyopencl
 
